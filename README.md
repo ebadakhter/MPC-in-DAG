@@ -1,6 +1,10 @@
 # MPC-in-DAG
 Minimum Path Cover in Directed Acyclic Graphs.
 
+The Code works by taking input from a file that represents each connection or edges. Those edges are then printed and stored into classes as objects. The part left out from the code is to sort from topologoically and then take out the vertex edges or disjoints that are not needed and keep the minimum number of edges as part of the result. THIS IS STILL INCOMPLETE. 
+
+Details of the Minimum Path Cover Algorithm
+
 The minimum path cover of a directed graph is a path cover containing the fewest possible paths joining the vertices of the graph. These paths can link any two vertices with any length size (>= 0).
 
 Let, DAG G= (V, A) whose 'n' vertices are named V={1,..,n} Construct a bipartite graph G= (VUV , E) withV={1,.,n} - where{v, w} belongs to E iff (v, w) belongs to A. 
